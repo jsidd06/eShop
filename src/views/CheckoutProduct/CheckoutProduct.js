@@ -25,7 +25,7 @@ function CheckoutProduct({id, title, image, price, rating}) {
               <p>⭐</p>
             ))}
         </div>
-        <button onClick={removeFromBasket}>Remove from Basket</button>
+        <button style={{cursor: 'pointer'}} onClick={removeFromBasket}>Remove from Basket</button>
       </div>
     </div>
   );
